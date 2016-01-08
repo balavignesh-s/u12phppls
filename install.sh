@@ -9,9 +9,32 @@ sudo apt-get clean
 echo "=========== Installing dependencies ============"
 apt-get update
 apt-get install -y git wget cmake libmcrypt-dev libreadline-dev libzmq-dev
-apt-get build-dep -y php5-cli
+apt-get install libxml2-dev     \
+                libjpeg-dev     \
+                libpng-dev      \
+                libtidy-dev     \
+                libxml2-dev     \
+                libpcre3-dev    \
+                libbz2-dev      \
+                libcurl4-openssl-dev    \
+                libminiupnpc-dev\
+                libdb5.1-dev    \
+                libpng12-dev    \
+                libxpm-dev      \
+                libfreetype6-dev        \
+                libt1-dev       \
+                libgd2-xpm-dev  \
+                libgmp-dev      \
+                libsasl2-dev    \
+                libmhash-dev    \
+                unixodbc-dev    \
+                freetds-dev     \
+                libpspell-dev   \
+                libsnmp-dev     \
+                libxslt1-dev    \
+                libmcrypt-dev
 apt-get install php5-dev
-
+	
 # Install libmemcached
 echo "========== Installing libmemcached =========="
 wget https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz
