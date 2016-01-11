@@ -8,7 +8,7 @@ sudo apt-get clean
 # Install dependencies
 echo "=========== Installing dependencies ============"
 apt-get update
-apt-get install -y git wget cmake libmcrypt-dev libreadline-dev libzmq-dev
+apt-get install -y git wget cmake libmcrypt-dev libreadline-dev libzmq-dev 
 apt-get install libxml2-dev     \
                 libjpeg-dev     \
                 libpng-dev      \
