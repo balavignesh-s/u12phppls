@@ -1,2 +1,8 @@
-# u12phppls
-Docker image for php on ubuntu 12.04 with services and tools pre-installed.
+u12phppls
+===============
+Shippable CI image for php on Ubuntu 12.04. Available php versions: 
+ 1. php5.4
+ 2. php5.5
+ 3. php5.6
+ 4. php7.0
+
