@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+source ~/.phpenv/bin/phpenv
+
 echo "============================ PHP Versions ==============================="
 echo "phpenv versions"
 phpenv versions
