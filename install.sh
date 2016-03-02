@@ -84,7 +84,7 @@ for file in /u12phppls/version/*;
 do
   . $file
 done
-
+sudo ln -sf /tmp/pickle/bin/pickle /root/.phpenv/shims/pickle
 # Cleaning package lists
 echo "================= Cleaning package lists ==================="
 apt-get clean
